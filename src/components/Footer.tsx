@@ -39,11 +39,11 @@ export const Footer: React.FC = () => {
               />
             </div>
             <div className="flex flex-col text-left">
-              <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-white leading-none">
+              <span className="text-2xl font-bold tracking-tight text-white leading-none font-sans">
                 {AGENCY_CONFIG.name}
               </span>
-              <span className="text-[10px] md:text-[11px] tracking-[0.25em] uppercase text-gold-light font-medium mt-1">
-                {AGENCY_CONFIG.tagline}
+              <span className="text-[10px] md:text-[11px] tracking-[0.2em] uppercase text-gold-light font-medium mt-1">
+                Freelance Creative Team · Pune
               </span>
             </div>
           </div>
@@ -91,7 +91,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Sub-footer */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-surface-cream/50 gap-4">
-          <p>© 2025 {AGENCY_CONFIG.name}. All rights reserved.</p>
+          <p>© 2025 AS. 2-Person Freelance Creative Team. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span className="hover:text-gold-light cursor-pointer transition-colors">Privacy Policy</span>
             <span className="hover:text-gold-light cursor-pointer transition-colors">Terms of Service</span>

@@ -26,15 +26,15 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onViewPortfolio }
           {/* Left Column: Typography & CTAs */}
           <div className="lg:col-span-7 space-y-6 md:space-y-8 text-left z-10">
             {/* Small Kicker */}
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent-border/30 border border-accent-border/70 text-xs font-semibold tracking-[0.25em] uppercase text-brown-deep">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-accent-border/30 border border-accent-border/70 text-xs font-semibold tracking-[0.2em] uppercase text-brown-deep">
               <span className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse" />
-              Creative Agency
+              2-Person Freelance Creative Team · Pune
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[68px] font-serif font-bold text-brown-deep leading-[1.08] tracking-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[66px] font-bold text-brown-deep leading-[1.12] tracking-tight">
               Ideas, Designed <br />
-              to <span className="italic font-normal font-serif text-gold">Shine</span>
+              to <span className="italic font-normal text-gold">Shine.</span>
             </h1>
 
             {/* Supporting Text */}
@@ -119,8 +119,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices, onViewPortfolio }
                   <img src="/as-logo.png" alt="AS Monogram Mark" className="w-full h-full object-contain" />
                 </div>
                 <div className="text-left">
-                  <p className="text-xs font-semibold text-brown-deep">Artify Studio</p>
-                  <p className="text-[11px] text-gold font-medium">Bespoke Design Excellence</p>
+                  <p className="text-xs font-semibold text-brown-deep">AS</p>
+                  <p className="text-[11px] text-gold font-medium">Freelance Creative Duo · Pune</p>
                 </div>
               </div>
 

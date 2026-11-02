@@ -32,8 +32,9 @@ export default {
         }
       },
       fontFamily: {
-        serif: ['"Playfair Display"', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        sans: ['Poppins', 'system-ui', '-apple-system', 'sans-serif'],
+        serif: ['Poppins', 'sans-serif'],
+        display: ['Poppins', 'sans-serif'],
       },
       boxShadow: {
         'subtle': '0 4px 20px -2px rgba(43, 23, 8, 0.05)',

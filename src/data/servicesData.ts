@@ -38,12 +38,12 @@ export interface StarterBundle {
 }
 
 export const STARTER_BUNDLE: StarterBundle = {
-  title: "The Agency Starter Bundle",
+  title: "The AS Starter Bundle",
   subtitle: "Complete Brand Launch Solution",
   price: "₹9,999",
   priceNum: 9999,
   tagline: "Everything you need to launch your brand with authority and elegance",
-  description: "Designed for ambitious entrepreneurs and new businesses looking for an all-in-one professional identity without managing multiple freelancers.",
+  description: "Designed for ambitious entrepreneurs and businesses wanting an all-in-one professional presence crafted directly by our 2-person freelance team.",
   turnaround: "7-10 Business Days",
   revisions: "Unlimited during design phase",
   features: [
@@ -53,7 +53,7 @@ export const STARTER_BUNDLE: StarterBundle = {
     "5 Custom Branded Social Media Poster Templates",
     "1-Page Fast, Mobile-Responsive Landing Page / Portfolio",
     "Social Media Profile Avatars & Banner Covers",
-    "Dedicated Designer & Priority Communication"
+    "Direct Collaboration with Both Creators"
   ]
 };
 

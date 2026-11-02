@@ -29,11 +29,11 @@ export const About: React.FC = () => {
               </div>
 
               <div className="mt-4">
-                <p className="font-serif text-lg font-bold text-brown-deep">
+                <p className="text-2xl font-bold text-brown-deep font-sans">
                   {AGENCY_CONFIG.name}
                 </p>
-                <p className="text-xs tracking-[0.25em] uppercase text-gold font-medium mt-0.5">
-                  {AGENCY_CONFIG.tagline}
+                <p className="text-xs tracking-[0.2em] uppercase text-gold font-medium mt-0.5">
+                  2-Person Freelance Team · Pune
                 </p>
               </div>
             </div>

@@ -17,12 +17,12 @@
   body {
     background-color: var(--color-ivory);
     color: #291B12;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'Poppins', system-ui, sans-serif;
     overflow-x: hidden;
   }
 
   h1, h2, h3, h4, .font-display {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Poppins', system-ui, sans-serif;
   }
 }
 
@@ -39,10 +39,6 @@
 
 .gold-gradient-bg-subtle {
   background: linear-gradient(135deg, rgba(197, 138, 43, 0.08) 0%, rgba(231, 184, 92, 0.03) 100%);
-}
-
-.gold-border-gradient {
-  border-image: linear-gradient(to right, #E9D9C3, #C58A2B, #E9D9C3) 1;
 }
 
 /* Custom scrollbar */

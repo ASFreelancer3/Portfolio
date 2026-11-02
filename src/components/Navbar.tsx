@@ -60,7 +60,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
               />
             </div>
             <div className="flex flex-col">
-              <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-brown-deep leading-none">
+              <span className="font-bold text-2xl tracking-tight text-brown-deep leading-none">
                 {AGENCY_CONFIG.name}
               </span>
               <span className="text-[10px] md:text-[11px] tracking-[0.2em] uppercase text-gold font-medium mt-1">
