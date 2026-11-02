@@ -5,7 +5,7 @@ export interface TestimonialItem {
   role: string;
   company?: string;
   avatar: string;
-  rating: number;
+  rating?: number;
   verified?: boolean;
 }
 
@@ -22,13 +22,13 @@ export const AGENCY_CONFIG = {
   monogram: "AS",
   tagline: "Design · Create · Grow",
   headline: "Ideas, Designed to Shine",
-  teamBadge: "2-Person Freelance Creative Team · Pune",
-  heroDescription: "We are a dedicated 2-person freelance team crafting distinctive visual identities, modern websites, and engaging digital content that help your business build a memorable presence.",
-  aboutHeadline: "Two Minds. One Creative Vision.",
+  teamBadge: "Freelance Design & Digital Studio · Pune",
+  heroDescription: "We craft distinctive visual identities, modern websites, and engaging digital content that help your business build a stronger, more memorable brand presence.",
+  aboutHeadline: "Creative Thinking. Meaningful Design.",
   aboutParagraphs: [
-    "We are AS — a dedicated two-person freelance creative team based in Pune. We are not a bloated agency with layers of account managers; you work directly with both of us from the initial spark to final delivery.",
-    "One of us focuses on brand identity, typography, visual balance, and storytelling; the other specializes in modern, responsive web development, digital layouts, and smooth user experiences.",
-    "Together, we combine creative imagination with practical execution, giving your business high-end design craftsmanship, quick turnarounds, and personal attention to detail without agency markups."
+    "We are AS — an independent freelance creative studio based in Pune. We work directly with you from the initial spark to final delivery, ensuring clear communication, personal attention, and zero middlemen.",
+    "Our focus spans brand identity, typography, visual storytelling, and high-performance modern web development.",
+    "We combine creative vision with practical execution, delivering high-end design craftsmanship, quick turnarounds, and transparent freelance pricing."
   ],
   contact: {
     email: "freelanceras3@gmail.com",
@@ -48,9 +48,9 @@ export const AGENCY_CONFIG = {
     x: "https://x.com/",
   },
   stats: [
-    { value: "100+", label: "Happy Clients" },
-    { value: "2", label: "Dedicated Creators" },
-    { value: "100%", label: "Direct Communication" },
+    { value: "Direct", label: "Client Collaboration" },
+    { value: "Prompt", label: "Turnaround Time" },
+    { value: "100%", label: "Custom Craftsmanship" },
     { value: "Pune", label: "Based in India" },
   ]
 };
@@ -71,7 +71,7 @@ export const WORKING_PRINCIPLES: WorkingPrinciple[] = [
   {
     id: "communication",
     title: "Direct Communication",
-    description: "Speak directly with both creators over WhatsApp or phone. No bureaucracy, just quick updates.",
+    description: "Speak directly with designers over WhatsApp or phone. No bureaucracy, just quick updates.",
     icon: "MessagesSquare"
   },
   {
@@ -102,7 +102,6 @@ export const TESTIMONIALS_DATA: TestimonialItem[] = [
     role: "Business Owner",
     company: "Boutique Retail",
     avatar: "./assets/priya-sharma.jpg",
-    rating: 5,
     verified: true
   }
 ];

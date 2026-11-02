@@ -86,13 +86,7 @@ export const Testimonials: React.FC = () => {
 
               {/* Testimonial Content */}
               <div className="space-y-3 text-left">
-                <div className="flex items-center gap-1">
-                  {[...Array(current.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-gold text-gold" />
-                  ))}
-                </div>
-
-                <p className="font-serif italic text-base sm:text-lg text-surface-ivory leading-relaxed">
+                <p className="italic text-base sm:text-lg text-surface-ivory leading-relaxed">
                   "{current.quote}"
                 </p>
 

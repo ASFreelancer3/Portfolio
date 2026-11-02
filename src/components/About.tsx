@@ -33,7 +33,7 @@ export const About: React.FC = () => {
                   {AGENCY_CONFIG.name}
                 </p>
                 <p className="text-xs tracking-[0.2em] uppercase text-gold font-medium mt-0.5">
-                  2-Person Freelance Team · Pune
+                  Freelance Creative Studio · Pune
                 </p>
               </div>
             </div>
