@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Linkedin, Youtube, Facebook, Twitter, ArrowUp } from 'lucide-react';
+import { Youtube, Facebook, Twitter, ArrowUp } from 'lucide-react';
 import { AGENCY_CONFIG } from '../data/agencyData';
 
 export const Footer: React.FC = () => {
@@ -68,8 +68,6 @@ export const Footer: React.FC = () => {
           {/* Right: Social Media Icons */}
           <div className="flex items-center gap-3">
             {[
-              { icon: <Instagram className="w-4 h-4" />, href: AGENCY_CONFIG.socials.instagram, label: 'Instagram' },
-              { icon: <Linkedin className="w-4 h-4" />, href: AGENCY_CONFIG.socials.linkedin, label: 'LinkedIn' },
               { icon: <Youtube className="w-4 h-4" />, href: AGENCY_CONFIG.socials.youtube, label: 'YouTube' },
               { icon: <Facebook className="w-4 h-4" />, href: AGENCY_CONFIG.socials.facebook, label: 'Facebook' },
               { icon: <Twitter className="w-4 h-4" />, href: AGENCY_CONFIG.socials.x, label: 'X (Twitter)' },
@@ -91,7 +89,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Sub-footer */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-surface-cream/50 gap-4">
-          <p>© 2025 AS. 2-Person Freelance Creative Team. All rights reserved.</p>
+          <p>© 2026 AS. 2-Person Freelance Creative Team. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span className="hover:text-gold-light cursor-pointer transition-colors">Privacy Policy</span>
             <span className="hover:text-gold-light cursor-pointer transition-colors">Terms of Service</span>
