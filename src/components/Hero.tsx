@@ -55,17 +55,18 @@ export const Hero: React.FC<HeroProps> = ({ onExploreServices }) => {
 
           {/* Right Column: Hero Visual with 3D Monogram */}
           <div className="lg:col-span-5 relative flex items-center justify-end">
-            <div className="relative w-[520px] h-[520px] rounded-full flex items-center justify-center">
-              <div className="absolute inset-0 rounded-full border border-accent-border/70" />
+            <div className="hero-orbit relative w-[520px] h-[520px] rounded-full flex items-center justify-center">
+              <div className="absolute inset-0 rounded-full border border-accent-border/70 transition-all duration-500 group-hover:border-gold/40" />
               <div className="absolute inset-[18px] rounded-full border border-accent-border/90" />
-              <div className="relative w-[330px] h-[330px] rounded-full bg-surface-white/30 flex items-center justify-center">
+              <div className="relative w-[430px] h-[430px] rounded-full overflow-hidden border-[9px] border-surface-white bg-surface-cream shadow-[0_18px_50px_rgba(43,23,8,0.10)] transition-all duration-700 hover:scale-[1.025] hover:shadow-[0_24px_65px_rgba(197,138,43,0.18)]">
                 <img
-                  src="/as-logo-original.jpg"
-                  alt="AS Monogram"
-                  className="w-[270px] h-[270px] object-contain"
+                  src="/hero-sculpture.jpg"
+                  alt="AS 3D Monogram sculpture"
+                  className="w-full h-full object-cover scale-[1.08] transition-transform duration-[1200ms] ease-out hover:scale-[1.16]"
                 />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-t from-brown-deep/5 via-transparent to-white/10 pointer-events-none" />
               </div>
-              <div className="absolute bottom-[12px] left-1/2 -translate-x-1/2 px-5 py-2.5 rounded-full bg-surface-white border border-accent-border text-brown-deep text-[11px] font-bold tracking-[0.25em] uppercase whitespace-nowrap shadow-subtle">
+              <div className="hero-label absolute bottom-[12px] left-1/2 -translate-x-1/2 px-5 py-2.5 rounded-full bg-surface-white border border-accent-border text-brown-deep text-[11px] font-bold tracking-[0.25em] uppercase whitespace-nowrap shadow-subtle transition-all duration-300">
                 Design · Create · Grow
               </div>
             </div>

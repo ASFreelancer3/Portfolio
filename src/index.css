@@ -41,6 +41,21 @@
   background: linear-gradient(135deg, rgba(197, 138, 43, 0.08) 0%, rgba(231, 184, 92, 0.03) 100%);
 }
 
+.hero-orbit {
+  transition: transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hero-orbit:hover {
+  transform: translateY(-6px);
+}
+
+.hero-orbit:hover .hero-label {
+  border-color: rgba(197, 138, 43, 0.55);
+  color: #966019;
+  transform: translate(-50%, -4px);
+  box-shadow: 0 12px 30px rgba(43, 23, 8, 0.12);
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
